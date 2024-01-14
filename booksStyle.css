@@ -33,6 +33,11 @@ body {
     width: 200px;
     height: 250px;
     border: 5px solid black;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.column img:hover {
+    transform: scale(1.2); 
 }
 
 .desc {

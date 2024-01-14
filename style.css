@@ -118,3 +118,24 @@ input {
    font-size: large;
 }
 
+.imgBoy {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.divImgBoy {
+    position: fixed;
+    left: 2px;
+    top: 3px;
+    z-index: 50;
+ 
+}
+
+.divImgBoy {
+    transition: transform 0.3s ease-in-out; /* Ajoute une transition fluide */
+  }
+
+  .divImgBoy:hover {
+    transform: scale(1.2); /* Agrandit l'élément au survol */
+  }
