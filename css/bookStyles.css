@@ -5,28 +5,20 @@
     background-color: blanchedalmond;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
     /* the background color will be a gradient from white to blanchedalmond */
     background: linear-gradient( white, blanchedalmond);
 }
 
-.description {
-    background-color: white;
-    border:3px solid #d3c6a3;
-    border-radius: 15px;
-    padding: 10px 15px;
-    cursor: pointer;
-    color: #466995;
-    ;
-}
-
-a{
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-}
 .gallery {
     display: flex;
     flex-direction: row;
@@ -40,7 +32,6 @@ a{
 }
 
 .gallery img {
-
     width: 200px;
     height: 300px;
     object-fit: cover;
