@@ -30,7 +30,12 @@ body {
         visibility: hidden;
     }
 }
-
+/* Responsive layout - the img in the top will disapear*/
+@media screen and (max-width: 500px) {
+    .imgBoy{
+     visibility: hidden;
+   }
+}
 .header {
     /*set the style of the navbar*/
     background-color: #466995;
